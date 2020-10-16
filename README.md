@@ -1,3 +1,5 @@
+[![GitHub issues](https://img.shields.io/github/issues/Jakkaphan-Chalongdej/Arduino-Food-storage-and-delivery)](https://github.com/Jakkaphan-Chalongdej/Arduino-Food-storage-and-delivery/issues)
+[![GitHub license](https://img.shields.io/github/license/Jakkaphan-Chalongdej/Arduino-Food-storage-and-delivery)](https://github.com/Jakkaphan-Chalongdej/Arduino-Food-storage-and-delivery)
 
 # Food-storage-and-delivery
 ## Arduino Project CS-Rmuti
