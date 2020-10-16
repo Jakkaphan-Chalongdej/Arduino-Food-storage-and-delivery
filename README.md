@@ -1,6 +1,6 @@
 # Food-storage-and-delivery
-# Arduino Project CS-Rmuti
-##  Equipment 
+## Arduino Project CS-Rmuti
+###  Equipment 
 1. Arduino UNO R3. 
 2. Steper motor. 
 3. CNC Shield V3. 
