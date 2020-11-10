@@ -11,3 +11,5 @@
 5. lead screw.  
 6. Power cable. 
 7. Convert Power 12V / Battery 12V. 
+
+นี่แค่เป็นแนวทาง ควรประยุคต์ใช้ให้เข้ากับงานของคุณ
