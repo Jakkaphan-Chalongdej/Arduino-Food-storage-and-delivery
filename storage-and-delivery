@@ -7,10 +7,10 @@
 # define Y_STP 3 // y -axis stepper control
 # define Z_STP 4 // z -axis stepper control
 
-# define limitPinX 9  // x
-# define limitPinY 10 // y
-# define limitPinZ 11 // z
-# define limitPin 13
+# define limitPinX 9  // Switch X
+# define limitPinY 10 // Switch y
+# define limitPinZ 11 // Switch z
+# define limitPin 13 // Sensor Infrared
 
 
 
@@ -46,9 +46,9 @@ void loop () {
   {
     if(digitalRead(limitPinX)==LOW)// micro switch X
     {
-      step (false, X_DIR, X_STP, 7000);// X axis motor reverse 1 ring, the 200 step is a circle.
+      step (false, X_DIR, X_STP, 7000);// X axis motor reverse 1 ring, the 7000 step is a circle.
       delay (5000);
-      step (true, X_DIR, X_STP, 7000); // X axis motor forward 1 laps, the 200 step is a circle.
+      step (true, X_DIR, X_STP, 7000); // X axis motor forward 1 laps, the 7000 step is a circle.
       
     }
     else if(digitalRead(limitPinY)==LOW)
